@@ -1,23 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-image: url(/img/bg.jpg);
-}
-
 body {
   text-align: justify;
   padding-top: 1em;
-  margin-left: 30em;
-  margin-right: 30em;
+  margin-left: 35em;
+  margin-right: 35em;
   margin-bottom: 1em;
+  background-image: url(/img/bg.jpg);
 }
 
-nav li {
+main {
+  background-color: white;
+  padding: 10px;
+}
+
+nav ul li {
   display: inline-block;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  margin-left: 3em;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
 }
 
 a:link,
