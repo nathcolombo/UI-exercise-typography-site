@@ -1,5 +1,5 @@
 body {
-  text-align: justify;
+  text-align: left;
   padding-top: 1em;
   margin-left: 35em;
   margin-right: 35em;
@@ -10,6 +10,12 @@ body {
 main {
   background-color: white;
   padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2em;
 }
 
 nav ul li {
