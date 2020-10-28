@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url(/img/bg.jpg);
 }
 
-.content {
-  background-image: url(/img/bg.jpg);
-  text-align: center;
+body {
+  text-align: justify;
+  padding-top: 1em;
+  margin-left: 30em;
+  margin-right: 30em;
+  margin-bottom: 1em;
 }
 
 nav li {
@@ -16,10 +20,36 @@ nav li {
   margin-left: 3em;
 }
 
+a:link,
+a:visited {
+  color: #662200;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #331a00;
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: overline;
+}
+
 h1 {
-  font-size: xx-large;
+  font-size: xxx-large;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
 }
 
 h2 {
-  font-size: x-large;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bolder;
+  font-size: small;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Tinos", serif;
+  font-weight: normal;
 }
