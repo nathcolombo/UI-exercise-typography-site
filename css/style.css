@@ -1,0 +1,19 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/img/bg.jpg);
+}
+
+nav {
+  display: inline-block;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: x-large;
+}
