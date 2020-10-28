@@ -1,13 +1,19 @@
-body,
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(/img/bg.jpg);
 }
 
-nav {
+.content {
+  background-image: url(/img/bg.jpg);
+  text-align: center;
+}
+
+nav li {
   display: inline-block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: 3em;
 }
 
 h1 {
